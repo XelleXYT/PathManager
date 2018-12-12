@@ -2,6 +2,8 @@
     Ventana de página de personaje del proyecto PathManager.
 -->
 <div id="accordion" style="width: 100%;">
+
+    <!-- Grupo Personaje -->
     <div class="card cardradius">
         <div class="card-header" id="headingOne">
             <h5 class="mb-0">
@@ -10,7 +12,6 @@
                 </button>
             </h5>
         </div>
-
         <div id="collapseOne" class="collapse show row" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
                 <div class="col-md-12 objectbox">
@@ -111,10 +112,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+
+    <!-- Grupo de Características Base y Bonus Racial -->
     <div class="card cardradius">
         <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
@@ -262,6 +264,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Grupo de Equipo -->
     <div class="card cardradius">
         <div class="card-header" id="headingThree">
             <h5 class="mb-0">
@@ -279,43 +283,49 @@
 </div>
 
 <script>
-    function refrescaValores(){
+    function refrescaValores() {
+
+        /* Valores Fuerza */
         var baseFue = document.getElementById('baseFue').value;
         var totalFue = baseFue;
-        var modFue= Math.round(((totalFue-10)/2)-0.1);
+        var modFue = Math.round(((totalFue - 10) / 2) - 0.1);
         $("#totalFue").text(totalFue);
         $("#modFue").text(modFue);
-        
+
+        /* Valores Constitución */
         var baseCon = document.getElementById('baseCon').value;
         var totalCon = baseCon;
-        var modCon= Math.round(((totalCon-10)/2)-0.1);
+        var modCon = Math.round(((totalCon - 10) / 2) - 0.1);
         $("#totalCon").text(totalCon);
         $("#modCon").text(modCon);
-        
+
+        /* Valores Destreza */
         var baseDes = document.getElementById('baseDes').value;
         var totalDes = baseDes;
-        var modDes= Math.round(((totalDes-10)/2)-0.1);
+        var modDes = Math.round(((totalDes - 10) / 2) - 0.1);
         $("#totalDes").text(totalDes);
         $("#modDes").text(modDes);
-        
+
+        /* Valores Inteligencia */
         var baseInt = document.getElementById('baseInt').value;
         var totalInt = baseInt;
-        var modInt= Math.round(((totalInt-10)/2)-0.1);
+        var modInt = Math.round(((totalInt - 10) / 2) - 0.1);
         $("#totalInt").text(totalInt);
         $("#modInt").text(modInt);
-        
+
+        /* Valores Sabiduría */
         var baseSab = document.getElementById('baseSab').value;
         var totalSab = baseSab;
-        var modSab= Math.round(((totalSab-10)/2)-0.1);
+        var modSab = Math.round(((totalSab - 10) / 2) - 0.1);
         $("#totalSab").text(totalSab);
         $("#modSab").text(modSab);
-        
+
+        /* Valores Carisma */
         var baseCar = document.getElementById('baseCar').value;
         var totalCar = baseCar;
-        var modCar= Math.round(((totalCar-10)/2)-0.1);
+        var modCar = Math.round(((totalCar - 10) / 2) - 0.1);
         $("#totalCar").text(totalCar);
         $("#modCar").text(modCar);
-        
-        
+
     }
 </script>
