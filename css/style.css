@@ -1,0 +1,70 @@
+body{
+    background-color: #D49A6A;
+}
+input{
+    width: 100%;
+}
+.cardradius{
+    background-color: #F9C580;
+}
+.banner{
+    background-color: #AA6C39;
+    color: white;
+}
+.contentbody{
+    background-color: #F9C580   ;
+}
+.objectbox{
+    margin: 10px;
+}
+.pcontainer{
+    background-color: #d6d8db;
+    margin-bottom: 1px;
+    margin-right: 3vh; width: 100%; padding: 10px;
+    /* border: 1px solid brown; */ border-radius: 8px;
+}
+
+.pcontainer *{
+}
+
+.inputcontainer{
+    margin-bottom: 10px; margin-right: 3vh; align-content: center; width: 100%; padding: 10px;
+    /* border: 1px solid brown; border-radius: 8px; */
+}
+.bordecentrado{
+    text-align: center;
+    border: 1px solid brown; border-radius: 8px;
+
+}
+
+.nombrecaracteristicacontainer{
+    font-size: 2vh;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+}
+
+.nombrecaracteristicacontainer span *{
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.inputcaracteristicacontainer{
+    margin: 0;
+    padding: 1px;
+}
+
+.modificadorcaracteristica{
+    margin: 0;
+    padding: 1px;
+}
+
+.caracteristicaajustadacontainer{
+    margin: 0;
+    padding: 1px;
+}
+
+span{
+    vertical-align: middle;
+}
