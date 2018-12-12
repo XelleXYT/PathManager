@@ -1,3 +1,6 @@
+<!--
+    Ventana de página de personaje del proyecto PathManager.
+-->
 <div id="accordion" style="width: 100%;">
     <div class="card cardradius">
         <div class="card-header" id="headingOne">
